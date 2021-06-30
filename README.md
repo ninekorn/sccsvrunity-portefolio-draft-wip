@@ -1,5 +1,5 @@
 # sccsUnity3DIKNVoxels
-I finished building the first version of this in 2017 but where wasn't any VR IK first person controller, there was only a first person controller and a voxel planet. 
+I finished building the first version of this in 2017 but there wasn't any VR IK first person controller inside of my project, only the basic unity3d vr controller, and a voxel planet with settings for the planet able to be changed only from the inspector so it was very basic and the settings in my unity3d project still are very basic as i didn't take the time to go check some tutorials on the UI but i did save them in a youtube list somewhere. 
 Last year i developped more of it and added destroyable voxels, and the voxels creation and destruction is still based on the craig perko 1st youtube minecraft tutorial.
 This year to this project, i added an IK VR Rig with the unity physics engine and the jitter physics that alexzzzz made available to the community of unity3d by integrating 
 the physics engine jitter and you can find his post here https://forum.unity.com/threads/jitter-physics-engine-vs-built-in-physx.186325/ . Before i coded SCCoreSystems Inverse
