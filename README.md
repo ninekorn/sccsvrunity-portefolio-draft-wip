@@ -16,4 +16,6 @@ a quaternion inside of unity3d and the same thing worked outside of unity3d. I h
 currently but i'm pretty certain i did a copy paste of the direct links to their forum posts somewhere inside of my backup projects (to find later). And of course i couldn't
 move forward without looking every now and then at Wolfram's circle circle intersection https://mathworld.wolfram.com/Circle-CircleIntersection.html .
 
+There are a couple of scripts from unifywiki inside of there and meshcombine also is not from me, and the noise.cs either. I developped the cube fractures scripts on my own in 2016-2017 with simple minor changes this year but they aren't that great but it works. Also, i am doing instancing tests to see if i can make some form of a instancing queue for breakable voxels fracturing in parts so that the parts are instances instead of being instantiated... 
+
 Thank you for reading me, steve chassé aka ninekorn
