@@ -575,7 +575,7 @@ public class sccsproceduralplanetbuilderGen2 : MonoBehaviour
         }*/
     }
 
-    float someRayLength = 0.000001f;
+    float someRayLength = 0.001f;
 
     private void Update()
     {

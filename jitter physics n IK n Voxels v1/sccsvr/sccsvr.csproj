@@ -221,9 +221,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="RealtimeGrinderDemo">
-      <HintPath>Assets/iS.CentralDispatch/Examples/Example Assets/Example 1/RealtimeGrinderDemo.dll</HintPath>
-    </Reference>
     <Reference Include="Jitter">
       <HintPath>Assets/JitterUnityAlexzzz/Jitter Physics/Engine/Jitter.dll</HintPath>
     </Reference>
@@ -260,65 +257,6 @@
     <Compile Include="Assets\ikscoriginal.cs" />
     <Compile Include="Assets\instancing\chunkForWorldScript.cs" />
     <Compile Include="Assets\instancing\world.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCDRuntimeDebugger.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCDThreadContainer.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCDTimeUtilities.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCentralDispatchRuntime.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\iSCDDebug.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\iSCentralDispatch.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Ex1DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\ActivateTrigger.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\AlphaButtonClickMask.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\AutoMoveAndRotate.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\CameraRefocus.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\CurveControlledBob.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\DragRigidbody.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\DynamicShadowSettings.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\EventSystemChecker.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\FollowTarget.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\ForcedReset.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\FOVKick.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\FPSCounter.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\LerpControlledBob.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\ObjectResetter.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\PlatformSpecificContent.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\SimpleMouseRotator.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\SmoothFollow.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\TimedObjectActivator.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\TimedObjectDestructor.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\WaypointCircuit.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Standard Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 2\Ex2DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 3\Ex3DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\CubeMove.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\CubeMoveThreaded.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\Ex4DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\PlanePlacer.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 5\Ex5DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 6\Ex6DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 7\Ex7DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\ExampleBackToMenu.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\ExampleMenuScreen.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\LogCatcher.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\UnlockMouse.cs" />
     <Compile Include="Assets\JitterUnityAlexzzz\Demos\IntersectionDetector.cs" />
     <Compile Include="Assets\JitterUnityAlexzzz\Demos\Move.cs" />
     <Compile Include="Assets\JitterUnityAlexzzz\Jitter Physics\Colliders\JBoxCollider.cs" />

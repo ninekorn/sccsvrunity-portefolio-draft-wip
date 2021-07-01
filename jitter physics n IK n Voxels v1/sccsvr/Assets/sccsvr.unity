@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -314,7 +314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &50966274
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 2
+  rIndex: 1
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -406,7 +406,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!114 &50966279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +640,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84130647}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00999999, y: -0.33899975, z: 0.019999936}
+  m_LocalPosition: {x: -0.009999998, y: -0.33899975, z: 0.019999936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 906164564}
@@ -682,7 +682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 3
+  rIndex: 1
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -694,7 +694,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!114 &84130650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -974,8 +974,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 110796172}
-  m_LocalRotation: {x: 6.4813723e-12, y: 1, z: -0.0000018179417, w: 0.0000036517772}
-  m_LocalPosition: {x: 0.000000023714986, y: -0.00031326633, z: -0.7760647}
+  m_LocalRotation: {x: 6.4813775e-12, y: 1, z: -0.0000018179417, w: 0.0000036517772}
+  m_LocalPosition: {x: 0.000000023714808, y: -0.00031326633, z: -0.7760646}
   m_LocalScale: {x: 100, y: 100, z: 128.5625}
   m_Children: []
   m_Father: {fileID: 286378305}
@@ -1425,7 +1425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &188038017
 Transform:
   m_ObjectHideFlags: 0
@@ -1450,7 +1450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51b68c736f565ae4aa66a0dd67508cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 0}
+  pooledObject: {fileID: 1173489280769808, guid: e667d973283ac12479021197ba4cde0f,
+    type: 2}
   pooledAmount: 20
   willGrow: 1
 --- !u!114 &188038019
@@ -1967,7 +1968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &267701750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2638,7 +2639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 5
+  rIndex: 2
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -2682,7 +2683,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 368380415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00999999, y: 3.1799998, z: -0.019999936}
+  m_LocalPosition: {x: 0.009999983, y: 3.1799998, z: -0.019999936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 84130648}
@@ -2947,7 +2948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: -1
+  rIndex: 8
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -2959,7 +2960,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!23 &410342641
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3565,7 +3566,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1394884658348418, guid: fe86b6d3267c8164196a4cf4055b252a, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 33696030626393792, guid: fe86b6d3267c8164196a4cf4055b252a,
         type: 2}
@@ -4095,7 +4096,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1394884658348418, guid: fe86b6d3267c8164196a4cf4055b252a, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 33696030626393792, guid: fe86b6d3267c8164196a4cf4055b252a,
         type: 2}
@@ -5506,7 +5507,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 869434958}
-  m_LocalRotation: {x: 6.594242e-12, y: 1, z: -0.0000018179417, w: 0.0000036517768}
+  m_LocalRotation: {x: 6.594244e-12, y: 1, z: -0.0000018179417, w: 0.0000036517768}
   m_LocalPosition: {x: 0.000000054385218, y: -0.0000015488025, z: -0.0000002165755}
   m_LocalScale: {x: 100, y: 100, z: 151.25005}
   m_Children:
@@ -5593,7 +5594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 9
+  rIndex: 8
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -5737,7 +5738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: -1
+  rIndex: 19
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -5749,7 +5750,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!114 &894590942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5964,14 +5965,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 528e3c4517dda174194499394a2604e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  legstaticpivot: {fileID: 0}
-  RaycastHitVisualObject: {fileID: 0}
+  legstaticpivot: {fileID: 172554469}
+  RaycastHitVisualObject: {fileID: 1500381150}
   setDesiredPositionPerFrame: 1
-  SCCSRayIKFootPlacement: {fileID: 0}
+  SCCSRayIKFootPlacement: {fileID: 1386340808}
   mainSwtcLadder: 0
-  footTarget: {fileID: 0}
-  targetTwo: {fileID: 0}
-  mainObject: {fileID: 0}
+  footTarget: {fileID: 906164564}
+  targetTwo: {fileID: 1500381150}
+  mainObject: {fileID: 906164564}
 --- !u!1 &914754996 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1394884658348418, guid: fe86b6d3267c8164196a4cf4055b252a,
@@ -5988,14 +5989,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 528e3c4517dda174194499394a2604e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  legstaticpivot: {fileID: 0}
-  RaycastHitVisualObject: {fileID: 0}
+  legstaticpivot: {fileID: 172554469}
+  RaycastHitVisualObject: {fileID: 557065714}
   setDesiredPositionPerFrame: 1
-  SCCSRayIKFootPlacement: {fileID: 0}
+  SCCSRayIKFootPlacement: {fileID: 1386340808}
   mainSwtcLadder: 0
-  footTarget: {fileID: 0}
-  targetTwo: {fileID: 0}
-  mainObject: {fileID: 0}
+  footTarget: {fileID: 906164564}
+  targetTwo: {fileID: 917769432}
+  mainObject: {fileID: 368380420}
 --- !u!1 &917769431
 GameObject:
   m_ObjectHideFlags: 0
@@ -6297,7 +6298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &967110296
 Transform:
   m_ObjectHideFlags: 0
@@ -6402,7 +6403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1003904817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6583,7 +6584,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!33 &1007354726
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6643,7 +6644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51b68c736f565ae4aa66a0dd67508cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObject: {fileID: 0}
+  pooledObject: {fileID: 1173489280769808, guid: e667d973283ac12479021197ba4cde0f,
+    type: 2}
   pooledAmount: 20
   willGrow: 1
 --- !u!114 &1007354730
@@ -7137,7 +7139,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1204852106}
   m_LocalRotation: {x: -0.70710695, y: -0, z: -0, w: 0.70710665}
-  m_LocalPosition: {x: 0.0019999743, y: 0.023000084, z: 0.09899997}
+  m_LocalPosition: {x: 0.0019999593, y: 0.023000084, z: 0.09899997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 392603516}
@@ -7209,7 +7211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 12
+  rIndex: 3
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -7221,7 +7223,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!114 &1204852112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7686,7 +7688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 13
+  rIndex: 4
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -7698,7 +7700,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!114 &1264564340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7988,8 +7990,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1358775552}
-  m_LocalRotation: {x: 6.6101217e-12, y: 1, z: -0.000001809995, w: 0.0000036517765}
-  m_LocalPosition: {x: 0.000000004338929, y: 0.00000010111849, z: -0.76839715}
+  m_LocalRotation: {x: 6.6101235e-12, y: 1, z: -0.000001809995, w: 0.0000036517765}
+  m_LocalPosition: {x: 0.0000000043387516, y: 0.00000010111858, z: -0.76839703}
   m_LocalScale: {x: 100, y: 100, z: 128.5625}
   m_Children: []
   m_Father: {fileID: 231967677}
@@ -8074,7 +8076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 14
+  rIndex: 11
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -8268,13 +8270,13 @@ MonoBehaviour:
   lastFrameHitPoint: {x: 0, y: 0, z: 0}
   lastFrameHitrIndex: 0
   lastFrameHitRayLength: 0
-  RaycastHitVisualObject: {fileID: 0}
-  upperleg: {fileID: 0}
-  lowerleg: {fileID: 0}
-  foot: {fileID: 0}
-  legstaticpivot: {fileID: 0}
-  footTarget: {fileID: 0}
-  pelvis: {fileID: 0}
+  RaycastHitVisualObject: {fileID: 1500381150}
+  upperleg: {fileID: 1970068191}
+  lowerleg: {fileID: 392603516}
+  foot: {fileID: 1852013765}
+  legstaticpivot: {fileID: 172554469}
+  footTarget: {fileID: 906164564}
+  pelvis: {fileID: 84130648}
   clampedDistance: 0
   counterForIkFootPlacementMax: 1
   InitcounterForIkFootPlacementMax: 50
@@ -8284,19 +8286,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1386340807}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 528e3c4517dda174194499394a2604e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  legstaticpivot: {fileID: 0}
-  RaycastHitVisualObject: {fileID: 0}
+  legstaticpivot: {fileID: 172554469}
+  RaycastHitVisualObject: {fileID: 1500381150}
   setDesiredPositionPerFrame: 1
-  SCCSRayIKFootPlacement: {fileID: 0}
+  SCCSRayIKFootPlacement: {fileID: 1386340808}
   mainSwtcLadder: 0
-  footTarget: {fileID: 0}
-  targetTwo: {fileID: 0}
-  mainObject: {fileID: 0}
+  footTarget: {fileID: 906164564}
+  targetTwo: {fileID: 917769432}
+  mainObject: {fileID: 368380420}
 --- !u!4 &1386340812
 Transform:
   m_ObjectHideFlags: 0
@@ -9053,7 +9055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 15
+  rIndex: 12
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -9319,7 +9321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1550495299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10052,7 +10054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: -1
+  rIndex: 8
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -10064,7 +10066,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!114 &1645961971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10505,7 +10507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 16
+  rIndex: 6
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -10841,7 +10843,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1817106298
 Transform:
   m_ObjectHideFlags: 0
@@ -10996,7 +10998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 17
+  rIndex: 14
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -11059,7 +11061,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1853129945
 Transform:
   m_ObjectHideFlags: 0
@@ -11416,7 +11418,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1880677773}
-  m_LocalRotation: {x: -0.7071066, y: -2.2806746e-13, z: 4.067609e-12, w: 0.707107}
+  m_LocalRotation: {x: -0.7071066, y: -2.2808556e-13, z: 4.067609e-12, w: 0.707107}
   m_LocalPosition: {x: 1.5537135e-12, y: 0, z: 0.26454878}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11453,7 +11455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bodytag: 0
-  rIndex: 18
+  rIndex: 5
   drawGizmos: 1
   rTag: -1
   affectedByGravity: 1
@@ -11465,7 +11467,7 @@ MonoBehaviour:
   linearDamping: 1
   angularDamping: 1
   jMaterial: {fileID: 0}
-  mass: 0
+  mass: 0.001
 --- !u!1 &1885743762
 GameObject:
   m_ObjectHideFlags: 0
@@ -11855,7 +11857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1954815250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12009,7 +12011,6 @@ GameObject:
   - component: {fileID: 1970068191}
   - component: {fileID: 1970068193}
   - component: {fileID: 1970068195}
-  - component: {fileID: 1970068192}
   m_Layer: 0
   m_Name: EmptyObjectLegR
   m_TagString: Untagged
@@ -12032,42 +12033,6 @@ Transform:
   m_Father: {fileID: 84130648}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1970068192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114322309801474782, guid: 3f8e95ece482b4047a4ad880e128bc72,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970068190}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5379b1212a353fd41b6ef4edf4737698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lastFrameHitRayLength: 0
-  swtcForIKLimbsType: 0
-  swtcForMovingTarget: 0
-  lastFrameHitNormal: {x: 0, y: 0, z: 0}
-  lastFrameHitPoint: {x: 0, y: 0, z: 0}
-  lastFrameHitrIndex: 0
-  RaycastHitVisualObject: {fileID: 0}
-  legstaticpivot: {fileID: 0}
-  pointer0: {fileID: 0}
-  pointer1: {fileID: 0}
-  pointer2: {fileID: 0}
-  pointer3: {fileID: 0}
-  shoulder: {fileID: 0}
-  upperArm: {fileID: 0}
-  foreArm: {fileID: 0}
-  hand: {fileID: 0}
-  elbowTarget: {fileID: 0}
-  handTarget: {fileID: 0}
-  endHand: {fileID: 0}
-  endForeArm: {fileID: 0}
-  polarStuff: {x: 0, y: 0}
-  rotationPoint: {fileID: 0}
-  HandParentObject: {fileID: 0}
-  touchdowndistance: 1
 --- !u!114 &1970068193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12080,14 +12045,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swtcForMovingTarget: 0
-  shoulder: {fileID: 0}
-  upperArm: {fileID: 0}
-  foreArm: {fileID: 0}
-  hand: {fileID: 0}
-  elbowTarget: {fileID: 0}
-  handTarget: {fileID: 0}
-  endHand: {fileID: 0}
-  endForeArm: {fileID: 0}
+  shoulder: {fileID: 172554469}
+  upperArm: {fileID: 1970068191}
+  foreArm: {fileID: 392603516}
+  hand: {fileID: 1852013765}
+  elbowTarget: {fileID: 917769432}
+  handTarget: {fileID: 906164564}
+  endHand: {fileID: 1072154404}
+  endForeArm: {fileID: 527868315}
 --- !u!114 &1970068195
 MonoBehaviour:
   m_ObjectHideFlags: 0
