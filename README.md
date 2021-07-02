@@ -1,3 +1,5 @@
+[url=https://ibb.co/1LDDppv][img]https://i.ibb.co/Ns88kkV/sccsvrunityv0.png[/img][/url]
+
 # sccsUnity3DIKNVoxels
 I finished building the first version of this in 2017 but there wasn't any VR IK first person controller inside of my project, only the basic unity3d vr controller, and a voxel planet with settings for the planet able to be changed only from the inspector so it was very basic and the settings in my unity3d project still are very basic as i didn't take the time to go check some tutorials on the UI but i did save them in a youtube list somewhere. 
 Last year i developped more of it and added destroyable voxels, and the voxels creation and destruction is still based on the craig perko 1st youtube minecraft tutorial.
