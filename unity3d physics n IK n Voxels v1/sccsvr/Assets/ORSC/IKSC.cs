@@ -77,7 +77,7 @@ public class IKSC : MonoBehaviour
 
 
         float distshoulderToHandtarget = Vector3.Distance(shoulder.position, handTarget.position);
-        distshoulderToHandtarget = Mathf.Min(distshoulderToHandtarget, totalArmLength - totalArmLength * 0.001f);
+        distshoulderToHandtarget = Mathf.Min(distshoulderToHandtarget, totalArmLength - totalArmLength * 0.001f); //from the youtuber ProgramYourFace IK
 
 
         //circlecircleintersect
@@ -105,6 +105,7 @@ public class IKSC : MonoBehaviour
 
         Vector3 upperToElbow = elbowposition - shoulder.position;
         Debug.DrawRay(locOfPointadjacentX, crosser.normalized * 0.15f, Color.red, 0.1f);
+
 
 
         if (swtcForMovingTarget == 0)
