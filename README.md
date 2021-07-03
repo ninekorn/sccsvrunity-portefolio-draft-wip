@@ -1,5 +1,5 @@
 <!-- wp:paragraph -->
-<p><strong>English description/description anglaise: </strong><br>I have just uploaded 4 of my projects that i have developped on unity3d 2017.4.40f1 and they are part of my creations with the Oculus Rift cv1 (cv1 still broken but i see whats going on in the monitor - i ordered a replacement headset and it should arrive in the coming week) in unity 2017.4.40f1. I have decided to call the "portefolio/series/suite" sccsvrunity and this is using the base vr sdk of unity 2017.4.40f1.</p>
+<p><strong>English description/description anglaise: </strong><br>I have just uploaded 4 of my projects that i have developped on unity3d 2017.4.40f1 and they are part of my creations with the Oculus Rift cv1 in unity 2017.4.40f1. I have decided to call the "portefolio/series/suite" sccsvrunity and this is using the base vr sdk of unity 2017.4.40f1.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -7,7 +7,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>sccsvrunity-v0 - after multiple tries with minecraft projects, this is the one i deemed worthy of sharing and the ones that followed. I am using my fracture scripts (except 1 i think) i developped in 2016. The ik rig i learned how to do it from the script tutorial demo of ProgramYourFace on his youtube channel. The voxel terrain is based on what i have learned from the old minecraft tutorials of Craig Perko on youtube also.</p>
+<p>sccsvrunity-v0 - after multiple tries with minecraft projects in unity, this is the one i deemed worthy of sharing and the ones that followed. I am using my fracture scripts (except 1 i think) i developped in 2016. The ik rig i learned how to do it by going on youtube and finding the script tutorial demo of ProgramYourFace which explained that the equations are on wolframs. I went there and studied but found another asset on github for inverse kinematics and also read and downloaded the scripts of user <a href="https://forum.unity.com/members/dogzerx2.13856/">dogzerx2</a> <a href="https://forum.unity.com/threads/free-inverse-kinematics-script.102765/">Free Inverse Kinematics script! - Unity Forum</a>. Even scripts as big as his are too complicated for me. The voxel terrain is based on what i have learned from the old and new minecraft tutorials of Craig Perko on youtube also.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":622,"sizeSlug":"large","linkDestination":"none"} -->
@@ -15,7 +15,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>sccsvrunity-v1- I have incorporated the jitter physics engine that the user alexzzzz had migrated from monogame to unity. I had decided to use his migration and incorporate it to my project. You can find alexzzzz post on the jitter physics for the unity engine here <a href="https://forum.unity.com/threads/jitter-physics-engine-vs-built-in-physx.186325/">Jitter physics engine vs built-in Physx - Unity Forum</a></p>
+<p>sccsvrunity-v1- I have incorporated the jitter physics engine that the user alexzzzz had migrated from monogame to unity. I had decided to use his migration of the jitter physics engine  and incorporate it to my project. You can find alexzzzz post/project on the complete basic systems of the jitter physics incorporated for the unity engine here <a href="https://forum.unity.com/threads/jitter-physics-engine-vs-built-in-physx.186325/">Jitter physics engine vs built-in Physx - Unity Forum</a> but i couldn't use the same functions i was using with version v0 for the ik collision with the floor so i developped something different. It's a little bit clunky but it works. And developping this jitter project helped me understand how i could make a raycast move forward per frame so that it's origin point moves in the direction it is aiming at and this technique i developped proved helpful and it inspired me to move forward and to try to break voxels using the same principles.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":621,"sizeSlug":"large","linkDestination":"none"} -->
@@ -23,7 +23,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>sccsvrunity-v2- I developped a different digging system than v0 and it is using the same ik than v0. <em>But the inverse kinematics system here in my repos isn't very complicated and barely approached in code in what i did. I am simply using the "solve for x" of wolfram's circle circle intersection everywhere in the limbs in this suite/series/portefolio and also in SCCoreSystems. </em></p>
+<p>sccsvrunity-v2- I developped a different digging system than v0 to make voxels destroyable without using the collision and raycast system of unity. Also i am using here the same ik than v0. Here the IK is working with the unity physics engine but the voxel destruction is not. <em>The inverse kinematics system here in my repos isn't very complicated and barely approached in code in what i did. I am simply using the "solve for x" of wolfram's circle circle intersection everywhere in the limbs in this suite/series/portefolio and also in SCCoreSystems. </em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":620,"sizeSlug":"large","linkDestination":"none"} -->
@@ -31,7 +31,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>and here is sccsvrunityv3. I succeeded in developping a couple of lines of code to miniaturize voxels and make voxel destroyable without using the collision and raycast system of unity. And after having developped and created myself those assets (minus those that i referenced) for my brother Patrick's birthday, i wanted to increase the performance of this project series and once i would have understood and developped the whole of it in the editor of my choice unity3d, it was then going to be possible to use my earned knowledge for finally breaking voxels through the shader in my solution SCCoreSystems here  <a href="https://github.com/ninekorn/SCCoreSystems-rerelease">ninekorn/SCCoreSystems-rerelease (github.com)</a> but i didn't approach that issue yet in SCCoreSystems. I am still not using the shader in this portefolio sccsvrunity at least not for the moment because i use the cpu for the calculations instead of the gpu (shader). I developped these portefolio drafts starting end of april 2021 until June 2021 in my coding challenge but the planet generation/creation itself, i succeeded in 2017 and all of this in the goal of better understanding how voxels are working to upgrade my solution SCCoreSystems.</p>
+<p>sccsvrunity-v3. I succeeded in developping a couple of lines of code to miniaturize voxels and make voxels destroyable without using the collision and raycast system of unity. And after having developped and creating myself those assets (minus those that i referenced) for my brother Patrick's birthday, i wanted to increase the performance of this project series and once i would have understood and developped the whole of it in the editor of my choice unity3d (doing a migration/copy of the same thing in the ab3d.dxengine and monogame remains one of my goals), it was then going to be possible to use my earned knowledge for finally breaking voxels through the shader in my solution SCCoreSystems here  <a href="https://github.com/ninekorn/SCCoreSystems-rerelease">ninekorn/SCCoreSystems-rerelease (github.com)</a> but i didn't approach that issue yet in SCCoreSystems. I am still not using the shader for instancing and breaking voxels in this portefolio sccsvrunity at least not for the moment because i use the cpu for the calculations instead of the gpu (shader) and because i am barely started with instancing in unity. I developped these portefolio drafts starting end of april 2021 until June 2021 in my coding challenge but the planet generation/creation itself, i succeeded in 2017 and all of this in the goal of better understanding how voxels are working to upgrade my solution SCCoreSystems.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":675,"sizeSlug":"large","linkDestination":"none"} -->
@@ -39,7 +39,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>My planet generation screenshot made on unity 5.5.2f1 in 2017 and my facebook page where i had posted it <a href="https://www.facebook.com/photo?fbid=271787936628041&amp;set=pcb.271788079961360">(20+) Facebook</a> with the cpu made voxels based on craig perko's old minecraft tutorial and i am still using the same way of creating voxels today but i have already understood and applied the principles of creating voxels and instancing them with the cpu/gpu in low level programming under my SCCoreSystems solution here <a href="https://github.com/ninekorn/SCCoreSystems-rerelease">ninekorn/SCCoreSystems-rerelease (github.com)</a>:</p>
+<p>My planet generation screenshot made on unity 5.5.2f1 in 2017 and my facebook page where i had posted it <a href="https://www.facebook.com/photo?fbid=271787936628041&amp;set=pcb.271788079961360">(20+) Facebook</a> with the cpu made voxels based on Craig Perko's old minecraft tutorial and i am still using the same way of creating voxels today and i have understood and applied the principles of creating voxels and instancing them with the cpu/gpu in low level programming under my SCCoreSystems solution here <a href="https://github.com/ninekorn/SCCoreSystems-rerelease">ninekorn/SCCoreSystems-rerelease (github.com)</a>:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":680,"sizeSlug":"large","linkDestination":"none"} -->
@@ -47,7 +47,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Here is a video of my fracture script in 2016 <a href="https://www.facebook.com/sccoresystems/videos/133258430480993/">(20+) Facebook</a>:<br><br>Those projects, i have developped them myself, in my free time with my creativity and i will provide the references of certain scripts which aren't mine but easily available on unify wiki or/and the stackoverflow forums or/and the unity engine forums.  To see the inverse kinematic in action in my projects, i have read/heard and understood the assets of ProgramYourFace on youtube, with minor modifications and he has two assets here<br><br><a href="https://www.youtube.com/watch?v=EQ6UKCftHCE">https://www.youtube.com/watch?v=EQ6UKCftHCE</a>... and here</p>
+<p>Here is a video of my fracture script in 2016 <a href="https://www.facebook.com/sccoresystems/videos/133258430480993/">(20+) Facebook</a>:<br><br>Those projects, i have developped them myself, in my free time with my creativity and i will provide the references of certain scripts which aren't mine but easily available on unify wiki or/and the stackoverflow forums or/and the unity engine forums.  To see the inverse kinematic in action in my projects, i have read/heard and understood the ik asset on github, with minor modifications and he has two assets here<br><br><a href="https://www.youtube.com/watch?v=EQ6UKCftHCE">https://www.youtube.com/watch?v=EQ6UKCftHCE</a>... and here</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:embed {"url":"https://www.youtube.com/watch?v=kqbEoa7BGMY...","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
@@ -67,7 +67,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:embed -->
 
 <!-- wp:paragraph -->
-<p>Please be gentle, i don't have a diploma, but i'm not that stupid in programming, at least not that stupid in making basic scenes with ik and voxels and vr work in c# (virtual desktops outside of unity also), but in python i'm not that good yet. I have shared a very basic Python scripts on my github repo here <a href="https://github.com/ninekorn/Python-2-way-local-network-communication-WIP">https://github.com/ninekorn/Python-2-way-local-network-communication-WIP</a> for my virtual reality headset i am also building and i needed that to send the capture screen of my project SCCoreSystems to my raspberry pi 4b kali os on my screen ST7735. But i already unveiled some python obj generators as mods for the game void expanse on the atomic torch studios so i'm not afraid to dive in with python. I have been able to display images to the screen ST7735 from the raspberri pi.<br><br>Be ready for a pc streaming vr headset, but not that fast anyway because i'm not even close to being done yet, but i wasn't kidding when i said i had learned to program in my free time, but it sure probably does show in my scripts that i look like i rushed some parts here and there and they lack comments hence why this is called a portefolio and not a triple a game article. it's wip and i will clean and comment them later on. I prefer how my solution SCCoreSystems look here though.<br><br>https://forums.frontier.co.uk/.../virtual-desktop.../...</p>
+<p>Please be gentle, i don't have a diploma, but i'm not that stupid in programming, at least not that stupid in making basic scenes with ik and voxels and vr work in c# (virtual desktops outside of unity also) using the most simplest things as don't get me wrong, there are way better programmers than me around and i prefer keeping things simple although i want to learn more, but in python i'm not that good yet. I have shared a very basic Python scripts on my github repo here <a href="https://github.com/ninekorn/Python-2-way-local-network-communication-WIP">https://github.com/ninekorn/Python-2-way-local-network-communication-WIP</a> for my virtual reality headset i am also building and i needed that to send the capture screen of my project SCCoreSystems to my raspberry pi 4b kali os on my screen ST7735. But i already unveiled some python obj generators as mods for the game void expanse on the atomic torch studios so i'm not afraid to dive in with python. I have been able to display images to the screen ST7735 from the raspberri pi 4b kali os.<br><br>Be ready for a pc streaming vr headset, but not that fast anyway because i'm not even close to being done yet, but i wasn't kidding when i said i had learned to program in my free time, but it sure probably does show in my scripts that i look like i rushed some parts here and there and they lack comments hence why this is called a portefolio and not a triple a game article. it's wip and i will clean and comment them later on. I prefer how my solution SCCoreSystems looks here though.<br><br><a rel="noreferrer noopener" href="https://forums.frontier.co.uk/threads/virtual-desktop-program-with-embedded-physics-engine-at-the-press-of-a-button-coming-in-2020.542577/#post-9105870" target="_blank">https://forums.frontier.co.uk/.../virtual-desktop.../...</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -83,7 +83,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I think even ProgramYourFace letting his audience know where to find the equation on Wolfram's is what led me to go learn and understand how to developp a single equation on wolframs circlecircle intersection "solving for x", so you will notice that the inverse kinematics that i am using is a slightly modified version of ProgramYourFace. The equation to circle circle intersection webpage is here&nbsp;<a href="https://mathworld.wolfram.com/Circle-CircleIntersection.html">https://mathworld.wolfram.com/Circle-CircleIntersection.html</a>&nbsp;.</p>
+<p>I think even ProgramYourFace letting his audience know where to find the equation on Wolfram's is what led me to go learn and understand how to developp a single equation on wolframs circlecircle intersection "solving for x", so you will notice that the inverse kinematics that i am using is a slightly modified version of the github repository where i found very simple ik project. The equation to circle circle intersection webpage is here <a href="https://mathworld.wolfram.com/Circle-CircleIntersection.html">https://mathworld.wolfram.com/Circle-CircleIntersection.html</a> .</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -111,7 +111,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>sccsvrunity-v0 -  Après de multiples essais avec des projets minecraft, celui-ci je le trouvais assez fonctionnel pour le partager ainsi que les autres qui suivent. J'utilise mes scripts de destruction (excepté un je crois) que j'ai developpé en 2016. J'ai appris comment faire le ik rig d'après le démo tutoriel de ProgramYourFace sur son channel youtube. Le terrain voxel est basé sur ce que j'ai appris du vieux tutoriel de Craig Perko aussi sur son channel youtube.</p>
+<p>sccsvrunity-v0 -  Après de multiples essais avec des projets minecraft, celui-ci je le trouvais assez fonctionnel pour le partager ainsi que les autres qui suivent. J'utilise mes scripts de destruction (excepté un je crois) que j'ai developpé en 2016. J'ai appris comment faire le ik rig d'après les explications de ProgramYourFace sur son channel youtube ainsi que <a href="https://forum.unity.com/members/dogzerx2.13856/">dogzerx2</a> <a href="https://forum.unity.com/threads/free-inverse-kinematics-script.102765/">Free Inverse Kinematics script! - Unity Forum</a> et une autre référence sur github. Le terrain voxel est basé sur ce que j'ai appris du vieux tutoriel de Craig Perko aussi sur son channel youtube.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":622,"sizeSlug":"large","linkDestination":"none"} -->
@@ -119,7 +119,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>sccsvrunity-v1-j'ai incorporé le jitter physics engine que le user alexzzzz avait migré de monogame à unity. J'ai donc décidé d'utiliser sa migration de jitter et de l'incorporer à mon projet. <a href="https://forum.unity.com/threads/jitter-physics-engine-vs-built-in-physx.186325/">Jitter physics engine vs built-in Physx - Unity Forum</a></p>
+<p>sccsvrunity-v1-j'ai incorporé le jitter physics engine que le user alexzzzz avait migré de monogame à unity. J'ai donc décidé d'utiliser sa migration du système complet de l'engine de base jitter et de l'incorporer à mon projet. <a href="https://forum.unity.com/threads/jitter-physics-engine-vs-built-in-physx.186325/">Jitter physics engine vs built-in Physx - Unity Forum</a>  mais je n'ai pas été en mesure d'utiliser les mêmes fonctions que j'ai utilisé dans la version v0 pour la collision ik avec le sol alors j'ai développé quelque chose de différent. Mon implementation peut paraître un peu maladroite mais la base fonctionne. Développer ce projet avec l'incorporation du jitter physics engine m'a aider à comprendre comment je devais faire pour faire avancer un vecteur de direction en avant et par frame, pour que le point d'origine du vecteur/raycast et celui-ci bougent en même temps et cette technique a porté fruit et m'a inspiré à marcher de l'avant pour essayer de briser des voxels avec le même principe.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":621,"sizeSlug":"large","linkDestination":"none"} -->
@@ -127,7 +127,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>sccsvrunity-v2- système de digging différent de v0 que j'ai moi-même développé ainsi que les même équations de kinématique inverse que mes autres projets sur unity. <em>Mais on parle de kinématique inverse pas vraiment compliqué là, c'est à peine entamé comme sujet dans ce que j'ai fait. je ne fait qu'utiliser le principe "solve for x" de wolfram's circle circle intersection partout <a href="https://mathworld.wolfram.com/Circle-CircleIntersection.html">Circle-Circle Intersection -- from Wolfram MathWorld</a> </em></p>
+<p>sccsvrunity-v2- système de digging différent de v0, qui n'utilise pas le système de collision du physics engine de unity ni les raycasts, que j'ai moi-même développé et ce sont les même équations de kinématique inverse que mes autres projets sur unity. <em>Mais on parle de kinématique inverse pas vraiment compliqué là, c'est à peine entamé comme sujet dans ce que j'ai fait. Je ne fait qu'utiliser le principe "solve for x" de wolfram's circle circle intersection partout <a href="https://mathworld.wolfram.com/Circle-CircleIntersection.html">Circle-Circle Intersection -- from Wolfram MathWorld</a> </em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":620,"sizeSlug":"large","linkDestination":"none"} -->
@@ -135,11 +135,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>et voici sccsvrunityv3. J'ai réussi à développer quelques lignes de codes pour miniaturizer le voxel et faire la destruction du voxel sans utiliser le système de collision de unity3d. Donc après avoir créé et développé ces assets moi-même en commençant par v0 pour la fête de mon frère patrick, je voulais augmenter la performance et une fois que j'allais avoir compris et développé le tout dans l'éditeur actuel de mon choix unity3d, j'allais pouvoir utiliser mes connaissances acquises pour finalement briser les voxels par le shader dans ma solution SCCoreSystems, ce qui n'est toujours pas le cas dans mon portefolio sccsvrunity du moins pour le moment car j'utilise le cpu pour les calculation et non le gpu (shader). J'ai développé ce portefolio-draft et ces projets commençant environ fin Avril 2021 à début Juin 2021 dans mon coding challenge mais la création de la planète elle même, je l'ai réussi en 2017 et tout ça dans le but de mieux comprendre comment ça fonctionne le  voxel pour upgrader entre autres ma solution SCCoreSystems.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
+<p>sccsvrunity-v3 - J'ai réussi à développer quelques lignes de codes pour miniaturizer le voxel et faire la destruction du voxel sans utiliser le système de collision de unity3d. Donc après avoir créé et développé ces assets moi-même en commençant par v0 pour la fête de mon frère Patrick, je voulais augmenter la performance et une fois que j'allais avoir compris et développé le tout dans l'éditeur actuel de mon choix unity3d (mais j'avais aussi comme choix le ab3d.dxengine ou monogame que j'ai toujours l'intention d'y faire aussi une migration de mes projets), j'allais pouvoir utiliser mes connaissances acquises pour finalement briser les voxels par le shader dans ma solution SCCoreSystems, ce qui n'est toujours pas le cas dans mon portefolio sccsvrunity du moins pour le moment car j'utilise le cpu pour les calculation et non le gpu (shader). J'ai développé ce portefolio-draft et ces projets commençant environ fin Avril 2021 à début Juin 2021 dans mon coding challenge mais la création de la planète elle même, je l'ai réussi en 2017 et tout ça dans le but de mieux comprendre comment ça fonctionne le  voxel pour améliorer entre autres ma solution SCCoreSystems.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":675,"sizeSlug":"large","linkDestination":"none"} -->
@@ -147,7 +143,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Une image de ma génération de voxel planet fait sur unity 5.5.2f1 2017 et ma page facebook ou je l'avais affichée <a href="https://www.facebook.com/photo.php?fbid=271787936628041&amp;set=pb.100013905109272.-2207520000..&amp;type=3">(20+) Facebook</a> avec la construction de voxel fait par cpu. et démontré dans le vieux tutoriel de craig perko, et j'utilise toujours le même principe aujourd'hui mais j'ai déjà compris et appliqué le principe de créer des voxels et de les instancer avec le cpu/gpu dans le low level programming sous ma solution SCCoreSystems ici <a href="https://github.com/ninekorn/SCCoreSystems-rerelease">ninekorn/SCCoreSystems-rerelease (github.com)</a>.<br><br>My planet generation screenshot made on unity 5.5.2f1 in 2017 and my facebook page where i had posted it <a href="https://www.facebook.com/photo?fbid=271787936628041&amp;set=pcb.271788079961360">(20+) Facebook</a> with the cpu made voxels based on craig perko's old minecraft tutorial and i am still using the same way of creating voxels today but i have already understood and applied the principles of creating voxels and instancing them with the cpu/gpu in low level programming under my SCCoreSystems solution here <a href="https://github.com/ninekorn/SCCoreSystems-rerelease">ninekorn/SCCoreSystems-rerelease (github.com)</a>:</p>
+<p>Une image de ma génération de voxel planet fait sur unity 5.5.2f1 2017 et ma page facebook ou je l'avais affichée <a href="https://www.facebook.com/photo.php?fbid=271787936628041&amp;set=pb.100013905109272.-2207520000..&amp;type=3">(20+) Facebook</a> avec la construction de voxel fait par cpu. Et j'utilise toujours le même principe aujourd'hui que celui démontré dans le vieux/nouveau tutoriel de Craig Perko sur youtube, mais j'ai déjà compris et appliqué le principe de créer des voxels et de les instancer avec le cpu/gpu dans le low level programming sous ma solution SCCoreSystems ici <a href="https://github.com/ninekorn/SCCoreSystems-rerelease">ninekorn/SCCoreSystems-rerelease (github.com)</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":680,"sizeSlug":"large","linkDestination":"none"} -->
@@ -155,11 +151,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Here is a video of my fracture script in 2016 <a href="https://www.facebook.com/sccoresystems/videos/133258430480993/">(20+) Facebook</a>:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><br>Ces projets, je les ai moi-même développé, de mon temps et de ma créativité, et je vais fournir les références de certains scripts qui ne sont pas de moi, mais facilement disponibles sur unify wiki et les forums stackoverflow et unity forums. La kinématique inverse pour la faire fonctionner, j'ai utilisé et compris l'asset du youtubeur ProgramYourFace, avec de minimes modifications et il a deux assets très facile à utiliser ici</p>
+<p>Voici un vidéo de mon script de fracture en 2016 <a href="https://www.facebook.com/sccoresystems/videos/133258430480993/">(20+) Facebook</a>:<br><br>Ces projets, je les ai moi-même développé, de mon temps et de ma créativité, et je vais fournir les références de certains scripts qui ne sont pas de moi, mais facilement disponibles sur unify wiki et les forums stackoverflow et unity forums. La kinématique inverse pour la faire fonctionner, j'ai utilisé et compris l'asset que j'ai trouvé sur github, avec de minimes modifications. Plusieurs assets sont dispos pour du ik et ceux de ProgramYourFace sont très attrayant et simple aussi là</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -183,7 +175,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:embed -->
 
 <!-- wp:paragraph -->
-<p>soyez gentils quand même, je n'ai pas de diplome, mais je ne suis pas con en programation, en tout cas, pas totalement con en c#, mais en python, je suis pas encore très fort là. Le code python j'en ai juste besoin pour envoyer le capture screen de mon programme SCCoreSystems à mon raspberri pi 4b sur l'écran ST7735 qui fonctionne déjà sur mon installation kali os, mais j'ai déjà dévoilé quelques générateurs d'items codé sur python et posté sur le forum d'atomic torch en moddant le jeu void expanse.</p>
+<p>soyez gentils quand même, je n'ai pas de diplome, mais je ne suis pas con en programation, en tout cas, pas totalement con en c# mais je sais que je ne suis pas excellent non plus, et ça doit être encore plus visible en python, je suis pas encore très fort là. Le code python j'en ai juste besoin pour envoyer le capture screen de mon programme SCCoreSystems à mon raspberri pi 4b sur l'écran ST7735 qui fonctionne déjà sur mon installation kali os, mais j'ai déjà dévoilé quelques générateurs d'items codé sur python et posté sur le forum d'atomic torch en moddant le jeu void expanse.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -191,7 +183,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>https://forums.frontier.co.uk/.../virtual-desktop.../...</p>
+<p>https://forums.frontier.co.uk/threads/virtual-desktop-program-with-embedded-physics-engine-at-the-press-of-a-button-coming-in-2020.542577/#post-9105870</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -211,11 +203,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Le problème quand je travaillais dans le ik dans ma solution SCCoreSystems c'est que les fonctions de unity quaternion pour faire la rotation d'un object dans la scene ne sont pas disponible de base et je pensais que j'avais trouvé la référence nécessaire dans le delta engine quaternion script  <a href="https://github.com/DeltaEngine/DeltaEngine/blob/master/Datatypes/Quaternion.cs">https://github.com/DeltaEngine/DeltaEngine/blob/master/Datatypes/Quaternion.cs</a>. Mais je déteste utiliser plus de référence que ce que j'ai besoin, malgré que ces functions de quaternion du delta engine sont très bien, j'ai décidé de chercher plus et finalement j'ai trouvé un post sur le forum de unity du user Aldonaletto qui expliquait comment retirer les vecteurs de directions d'un quaternion et la même chose a fonctionner en dehors de unity3d. Depuis, j'utilise les equations qu'Aldonaletto avait partagé  (<a href="https://answers.unity.com/users/11109/aldonaletto.html">https://answers.unity.com/users/11109/aldonaletto.html</a>). À un certain point j'avais trouvé les équations aussi sur pastebin mais je ne peux maintenant retrouver ces posts mais je suis certain d'avoir copié le lien comme référence dans un de mes scripts maths.cs. (à chercher plus tard) . Je crois aussi que c'est à cause du fait que le user ProgramYourFace a laisser son audience savoir comment comprendre la kinematique inversé en allant voir l'équation sur l'article intersection cercle-cercle et "solve for x", alors vous allez voir que le ik que j'utilise est celle de ProgramYourFace légèrement modifiée. L'équation pour le cercle-cercle intersection est ici  <a href="https://mathworld.wolfram.com/Circle-CircleIntersection.html">https://mathworld.wolfram.com/Circle-CircleIntersection.html</a>&nbsp; </p>
+<p>Le problème quand je travaillais dans le ik dans ma solution SCCoreSystems c'est que les fonctions de unity quaternion pour faire la rotation d'un object dans la scene ne sont pas disponible de base et je pensais que j'avais trouvé la référence nécessaire dans le delta engine quaternion script  <a href="https://github.com/DeltaEngine/DeltaEngine/blob/master/Datatypes/Quaternion.cs">https://github.com/DeltaEngine/DeltaEngine/blob/master/Datatypes/Quaternion.cs</a>. Mais je déteste utiliser plus de référence que ce que j'ai besoin, malgré que ces functions de quaternion du delta engine sont très bien, j'ai décidé de chercher plus et finalement j'ai trouvé un post sur le forum de unity du user Aldonaletto qui expliquait comment retirer les vecteurs de directions d'un quaternion et la même chose a fonctionner en dehors de unity3d. Depuis, j'utilise les equations qu'Aldonaletto avait partagé  (<a href="https://answers.unity.com/users/11109/aldonaletto.html">https://answers.unity.com/users/11109/aldonaletto.html</a>). À un certain point j'avais trouvé les équations aussi sur pastebin mais je ne peux maintenant retrouver ces posts mais je suis certain d'avoir copié le lien comme référence dans un de mes scripts maths.cs. (à chercher plus tard) . Je crois aussi que c'est à cause du fait que le user ProgramYourFace a laisser son audience savoir comment comprendre la kinematique inversé en allant voir l'équation sur l'article intersection cercle-cercle et "solve for x", alors vous allez voir que le ik que j'utilise est celle que j'ai trouvé sur github légèrement modifiée. L'équation pour le cercle-cercle intersection est ici  <a href="https://mathworld.wolfram.com/Circle-CircleIntersection.html">https://mathworld.wolfram.com/Circle-CircleIntersection.html</a>  </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -229,9 +217,6 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
-
-thank you for reading me, 
-steve chassé aka ninekorn
 
 ---------------------
 LICENSES SECTION WIP
