@@ -159,7 +159,7 @@ https://www.youtube.com/watch?v=YpHQ-Kykp_s...
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><br>Ces projets, je les ai moi-même développé, de mon temps et de ma créativité, et je vais fournir les références de certains scripts qui ne sont pas de moi, mais facilement disponibles sur unify wiki et les forums stackoverflow et unity forums. La kinématique inverse pour la faire fonctionner, j'ai utilisé et compris l'asset du youtubeur ProgramYourFace, avec de minimes modifications (only parts of the script) et il a deux assets très facile à utiliser ici</p>
+<p><br>Ces projets, je les ai moi-même développé, de mon temps et de ma créativité, et je vais fournir les références de certains scripts qui ne sont pas de moi, mais facilement disponibles sur unify wiki et les forums stackoverflow et unity forums. La kinématique inverse pour la faire fonctionner, j'ai utilisé et compris l'asset du youtubeur ProgramYourFace, avec de minimes modifications et il a deux assets très facile à utiliser ici</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
