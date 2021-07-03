@@ -3,7 +3,7 @@
 <a href="https://ibb.co/nkphKx5"><img src="https://i.ibb.co/4NkB0h5/sccs-VJitter0.png" alt="sccs-VJitter0" border="0"></a>
 <a href="https://ibb.co/nztHzxN"><img src="https://i.ibb.co/86tW61L/sccsvrunityv3.png" alt="sccsvrunityv3" border="0"></a>
 
-PLEASE NOTE THE CHARACTER CONTROLLER IS CURRENTLY WIP AND IT DOES NOT MOVE WITH CONTROLLERS YET. I WILL BE WORKING ON THIS SOON.
+PLEASE NOTE THE CHARACTER CONTROLLER IS CURRENTLY WIP AND IT DOES NOT MOVE WITH CONTROLLERS. I WILL BE DEVELOPPING SOMETHING FOR THIS SOON.
 
 # sccsUnity3DIKNVoxels
 I finished building the first version of this in 2017 but there wasn't any VR IK first person controller inside of my project, only the basic unity3d vr controller, and a voxel planet with settings for the planet able to be changed only from the inspector so it was very basic and the settings in my unity3d project still are very basic as i didn't take the time to go check some tutorials on the UI but i did save them in a youtube list somewhere. 
