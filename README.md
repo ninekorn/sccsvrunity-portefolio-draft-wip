@@ -1,5 +1,5 @@
 <!-- wp:paragraph -->
-<p><strong>English description/description anglaise: </strong><br>I have just uploaded 4 of my projects that i have developped on unity3d 2017.4.40f1 and they are part of my creations with the Oculus Rift cv1 (still broken but i see whats going on in the screen - i ordered a replacement headset and it should arrive in the coming week) in unity 2017.4.40f1. I have decided to call the "portefolio/series/suite" sccsvrunity and this is using the base vr sdk of unity 2017.4.40f1.</p>
+<p><strong>English description/description anglaise: </strong><br>I have just uploaded 4 of my projects that i have developped on unity3d 2017.4.40f1 and they are part of my creations with the Oculus Rift cv1 (cv1 still broken but i see whats going on in the monitor - i ordered a replacement headset and it should arrive in the coming week) in unity 2017.4.40f1. I have decided to call the "portefolio/series/suite" sccsvrunity and this is using the base vr sdk of unity 2017.4.40f1.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
