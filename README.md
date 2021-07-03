@@ -1,8 +1,3 @@
-<a href="https://ibb.co/1LDDppv"><img src="https://i.ibb.co/Ns88kkV/sccsvrunityv0.png" alt="sccsvrunityv0" border="0"></a>
-<a href="https://ibb.co/nkphKx5"><img src="https://i.ibb.co/4NkB0h5/sccs-VJitter0.png" alt="sccs-VJitter0" border="0"></a>
-<a href="https://ibb.co/q99WgpN"><img src="https://i.ibb.co/xGGfg61/v2ik0.png" alt="v2ik0" border="0"></a>
-<a href="https://ibb.co/nztHzxN"><img src="https://i.ibb.co/86tW61L/sccsvrunityv3.png" alt="sccsvrunityv3" border="0"></a>
-
 <!-- wp:paragraph -->
 <p><strong>English description/description anglaise: </strong><br>I have just uploaded 4 of my projects that i have developped on unity3d 2017.4.40f1 and they are part of my creations with the Oculus Rift cv1 in unity 2017.4.40f1. I have decided to call the "portefolio/series/suite" sccsvrunity and this is using the base vr sdk of unity 2017.4.40f1.</p>
 <!-- /wp:paragraph -->
