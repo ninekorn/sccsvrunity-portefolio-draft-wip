@@ -611,7 +611,7 @@ public class playerInteraction : MonoBehaviour
 
 
             RaycastHit hit;
-            Debug.DrawRay(transform.position, transform.forward * 25, Color.green, 0.001f);
+            Debug.DrawRay(transform.position, transform.forward * 1, Color.green, 0.001f);
 
             //var someTouch0 = Input.GetTouch(0);
             ////Debug.Log(""+ someTouch0);
@@ -1086,7 +1086,7 @@ public class playerInteraction : MonoBehaviour
             ray = new Ray(transform.position, transform.forward);// Camera.main.ScreenPointToRay(Input.mousePosition);
 
             RaycastHit hit;
-            Debug.DrawRay(transform.position, transform.forward * 25, Color.green, 0.001f);
+            Debug.DrawRay(transform.position, transform.forward * 1, Color.green, 0.001f);
 
             //var someTouch0 = Input.GetTouch(0);
             ////Debug.Log(""+ someTouch0);
@@ -1563,7 +1563,7 @@ public class playerInteraction : MonoBehaviour
                 var ray = new Ray(transform.position, transform.forward);
 
                 RaycastHit hit;
-                Debug.DrawRay(transform.position, transform.forward * 3, Color.green, 0.001f);
+                Debug.DrawRay(transform.position, transform.forward * 1, Color.green, 0.001f);
 
                 /*if (Physics.Raycast(ray, out hit, 0.25f))
                 {
@@ -1586,7 +1586,7 @@ public class playerInteraction : MonoBehaviour
                 ray = new Ray(legstaticpivot.position, transform.forward);
 
                 //RaycastHit hittwo;
-                Debug.DrawRay(transform.position, transform.forward * 3, Color.green, 0.001f);
+                Debug.DrawRay(transform.position, transform.forward * 1, Color.green, 0.001f);
 
                 if (Physics.Raycast(ray, out hit, totallegLength, layerMask))
                 {

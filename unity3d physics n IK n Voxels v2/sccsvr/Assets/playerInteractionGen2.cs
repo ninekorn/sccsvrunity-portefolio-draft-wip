@@ -4708,7 +4708,7 @@ public class playerInteractionGen2 : MonoBehaviour
                 var ray = new Ray(transform.position, transform.forward);
 
                 RaycastHit hit;
-                Debug.DrawRay(transform.position, transform.forward * 3, Color.green, someRayLength);
+                Debug.DrawRay(transform.position, transform.forward * 1, Color.green, someRayLength);
 
                 /*if (Physics.Raycast(ray, out hit, 0.25f))
                 {
@@ -4731,7 +4731,7 @@ public class playerInteractionGen2 : MonoBehaviour
                 ray = new Ray(legstaticpivot.position, transform.forward);
 
                 //RaycastHit hittwo;
-                Debug.DrawRay(transform.position, transform.forward * 3, Color.green, someRayLength);
+                Debug.DrawRay(transform.position, transform.forward * 1, Color.green, someRayLength);
 
                 if (Physics.Raycast(ray, out hit, totallegLength, layerMask))
                 {
