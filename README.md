@@ -28,16 +28,11 @@ instead, i had an idea to make it work with the basic instancing methods unity3d
 using drawinstances of unity3d:
 The idea that i had with using the instancing methods of unity is around a simple test of rendering 2 units of cubic voxels and 2 units of instances of those cubic voxels with time as the factor of when rendering of the instances should stop when one voxel is being broken after the other, without any other sort or form of factors like user manipulation after the voxel breaks and without physics. if we break voxel block 1 (at index 0 of the instantiated gameobjects list) and flip a switch to draw voxel block instance 1 (at index 0 of the instances list) where said voxel block 1 is broken, and then break voxel block 2 (at index 1 of the instantiated gameobjects list) and draw voxel block instance 2 (at index 1 of the instances list) where said voxel block 2 was broken (at index 1 of the instantiated gameobjects list). block 1 was broken before block 2 so block 1 should disappear from rendering before block 2 because it was broken before block 2. This causes an issue if the list of instances isn't sorted with time as a factor for drawing, because drawinstance draws the instances from the bottom of the list to the top of the list or however we arrange our lists of instances so in order to have instance 2 being drawn as the index 0 in drawinstances so that instance 1 isn't drawn anymore with darwinstances, you would have to rearrange your list of instances so that instance 1 isn't rendered and is swapped with instance 2 in order to limit the method drawinstances from drawing 1 instance or 2 instances at the right position so swapping the rotation and position should also be done if swapping the rendering position of the instance. I was almost there with my tests and you can find the tests in a folder named around instances and in the shader class of those instances scripts.
 
-Thank you for reading me, steve chassé aka ninekorn
 
-Please note that other programmers references to code/scripts/libraries that i am using have their own licenses. In this case, version sccsvrv2 is using grid shaders that aren't mine and they have their own licenses that i will be providing very soon also.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+French description below is not a translation of the text above but is a slight description/resume of the projects also that i posted on facebook:
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
-stackoverflow forums https://meta.stackexchange.com/questions/12527/do-i-have-to-worry-about-copyright-issues-for-code-posted-on-stack-overflow https://gamedev.stackexchange.com/help/licensing
-unity 3d forums https://forum.unity.com/threads/license-on-code-in-forum-posts.714107/ https://unity3d.com/legal/terms-of-service/site-and-communities?_gl=1*1e9e77l*_ga*NTYzMjUzMDUwLjE2MjUwNjkxMjE.*_ga_1S78EFL1W5*MTYyNTI3NjY0NC4zLjAuMTYyNTI3NjY0NC42MA..&_ga=2.158021242.1379019786.1625276645-563253050.1625069121
-unifywiki https://wiki.unity3d.com/index.php/Main_Page "Creative Commons Attribution Share Alike."
-
-
-French description below is not a translation of the text above but is a slight description/resume of the projects:
 
 Je viens d'uploader 3 de mes projets que j'ai moi-même codé sur unity3d 2017 et qui font parti de mes créations avec le Oculus Rift cv1 dans unity2017. J'ai décidé d'appeler la "série/suite/portefolio" sccsvrunity.
 
@@ -77,3 +72,19 @@ v2 - voxel minecraft VR et voxel rig upgradé mais aucun éclat de destruction. 
 jitter - seulement que le ik voxel rig est setup ici, jitter c'était pas trop facile à faire fonctionner les raycasts dans unity3d mais j'ai réussi à faire fonctionner le ik rig jusqu'à un certain degré.
 
 steve chassé aka ninekorn
+
+
+
+
+---------------------
+LICENSES SECTION WIP
+---------------------
+
+Please note that other programmers references to code/scripts/libraries that i am using have their own licenses. In this case, version sccsvrv2 is using grid shaders that aren't mine and they have their own licenses that i will be providing very soon also.
+
+stackoverflow forums https://meta.stackexchange.com/questions/12527/do-i-have-to-worry-about-copyright-issues-for-code-posted-on-stack-overflow https://gamedev.stackexchange.com/help/licensing
+unity 3d forums https://forum.unity.com/threads/license-on-code-in-forum-posts.714107/ https://unity3d.com/legal/terms-of-service/site-and-communities?_gl=1*1e9e77l*_ga*NTYzMjUzMDUwLjE2MjUwNjkxMjE.*_ga_1S78EFL1W5*MTYyNTI3NjY0NC4zLjAuMTYyNTI3NjY0NC42MA..&_ga=2.158021242.1379019786.1625276645-563253050.1625069121
+unifywiki https://wiki.unity3d.com/index.php/Main_Page "Creative Commons Attribution Share Alike."
+
+
+
