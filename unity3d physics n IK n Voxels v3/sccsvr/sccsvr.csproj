@@ -239,9 +239,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2017.4.40f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="RealtimeGrinderDemo">
-      <HintPath>Assets/iS.CentralDispatch/Examples/Example Assets/Example 1/RealtimeGrinderDemo.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/steve/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -331,26 +328,6 @@
     <Compile Include="Assets\Fracture4.cs" />
     <Compile Include="Assets\FractureLATEST.cs" />
     <Compile Include="Assets\grabObject.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCDRuntimeDebugger.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCDThreadContainer.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCDTimeUtilities.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\Internal\iSCentralDispatchRuntime.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\iSCDDebug.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Core\iSCentralDispatch.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 1\Ex1DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 2\Ex2DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 3\Ex3DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\CubeMove.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\CubeMoveThreaded.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\Ex4DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 4\Scripts\PlanePlacer.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 5\Ex5DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 6\Ex6DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Example 7\Ex7DemoController.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\ExampleBackToMenu.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\ExampleMenuScreen.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\LogCatcher.cs" />
-    <Compile Include="Assets\iS.CentralDispatch\Examples\Example Assets\Shared\UnlockMouse.cs" />
     <Compile Include="Assets\LevelGenerator4\LevelGenerator4.cs" />
     <Compile Include="Assets\LevelGenerator4\newFloorTiles.cs" />
     <Compile Include="Assets\LevelGenerator4\sccslevelgen4chunkclass.cs" />
@@ -551,9 +528,6 @@
     <Compile Include="Assets\playerInteractionGen1.cs" />
     <Compile Include="Assets\playerInteractionGen2.cs" />
     <Compile Include="Assets\PlayerIO.cs" />
-    <Compile Include="Assets\ProjectileHelper\DemoScene\Scripts\Grenade.cs" />
-    <Compile Include="Assets\ProjectileHelper\DemoScene\Scripts\GrenadeThrower.cs" />
-    <Compile Include="Assets\ProjectileHelper\Library\ProjectileHelper.cs" />
     <Compile Include="Assets\reassemble.cs" />
     <Compile Include="Assets\Recombiner.cs" />
     <Compile Include="Assets\reparator.cs" />
@@ -639,8 +613,6 @@
     <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets\OvrAvatar\Samples\SocialStarter\README.txt" />
-    <None Include="Assets\ProjectileHelper\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
-    <None Include="Assets\ProjectileHelper\readme.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
