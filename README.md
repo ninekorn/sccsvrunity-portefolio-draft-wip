@@ -33,6 +33,28 @@ unity 3d forums https://forum.unity.com/threads/license-on-code-in-forum-posts.7
 unifywiki https://wiki.unity3d.com/index.php/Main_Page "Creative Commons Attribution Share Alike."
 
 
+French description below is not a translation of the text above but is a slight description/resume of the projects:
+Je viens d'uploader 3 de mes projets que j'ai moi-même codé sur unity3d 2017 et qui font parti de mes créations avec le Oculus Rift cv1 dans unity2017. J'ai décidé d'appeler la "série/suite/portefolio" sccsvrunity.
+https://github.com/ninekorn/sccsVRnIKnVoxelsUnity3D2017
+Ces projets, je les ai moi-même développé, de mon temps et de ma créativité, et je vais fournir les références de certains scripts qui ne sont pas de moi, mais facilement disponibles sur unify wiki. La kinématique inverse pour la faire fonctionner, j'ai utilisé et compris l'asset du youtubeur ProgramYourFace, avec de minimes modifications et il a deux assets très facile à utiliser ici
+https://www.youtube.com/watch?v=EQ6UKCftHCE...
+et là
+https://www.youtube.com/watch?v=kqbEoa7BGMY...
+et le chunk system je l'ai appris en regardant et comprenant le tutoriel du youtubeur Craig Perko ici
+https://www.youtube.com/watch?v=YpHQ-Kykp_s...
+soyez gentils quand même, je n'ai pas de diplome, mais je ne suis pas con en programation, en tout cas, pas totalement con en c#, mais en python, je suis pas encore très fort là. Le code python j'en ai juste besoin pour envoyer le capture screen de mon programme SCCoreSystems à mon raspberri pi 4b sur l'écran ST7735 qui fonctionne déjà sur mon installation kali os.
+Attachez votre ceinture là, mais quand même pas trop vite parce que j'ai pas fini, mais moi je déconnais pas avec avoir apris à programmer depuis déjà 4++ années de mon temps libre et vouloir faire mon virtual reality headset. mais je préfère toujours mes solutions SCCoreSystems que j'ai affiché sur le forum d'elite dangerous ici https://forums.frontier.co.uk/.../virtual-desktop.../...
+et j'ai toujours utilisé unity3d pour facilement comprendre comment ça fontionne le voxel avant de m'en aller dans le low-level programming.
+Par contre, j'ai un problème avec le buffer de c# à python et donc là faut que je trouve une solution avec le NamedPipeServerStream pour envoyer mon screen capture en byte array de c# au buffer de python dans windows 10 sous visual studio 2017 community edition. Présentement j'utilise le System.Text.Encoding.ASCII.GetString pour décoder mon byte array en string et ensuite le décoder en System.Text.Encoding.ASCII.GetBytes pour l'envoyer en ASCII bytes au travers du buffer NamedServerPipe à Python... Si je réussi à envoyer l'image de mon desktop screen capture de ma solution SCCoreSystems au travers de python et jusqu'à mon raspberri pi 4b kali os, le tour est joué pour le circuit codé pour une paire de lunette Streaming des jeux de pc (manquant les lentilles de réalité virtuelle) avec des manettes, car le circuit pour les handcontrollers simili Oculus Touch je l'ai réussi il y a déjà plus de 1 mois pour 6 boutons et 2 thumbsticks. Il ne me resterait qu'à comprendre le module accéléromètre GY-521 pour la rotation des deux hand controlleurs et aussi réessayer le module ESP8266 wifi pour la communication des manettes avec le headset ainsi que le module de tracking.
+Et donc, ça s'en vient mon gargantuan de projet de non seulement faire un virtual reality headset, mais aussi de faire des jeux voxels qui vont venir avec surtout quand ça fait 4 ans que je suis en self-imposed coding challenge. Je ne suis quand même plus une cloche en programmation après 12 heures par jours pendant 4++ années même si je ne suis pas allé à l'école en programmation et que je n'ai pas de diplôme.
+Ce post n'est pas pour me pêter les bretelles car il n'y a pas grand chose de si extravagant que ça là-dedans anyway, c'est simplement pour partager ces 3 projets de voxels chunk breaking et de kinématique inverse dans unity3d 2017 avec le oculus rift cv1 que j'ai moi-même développé et qui vont désormais aussi faire parti de mon porte-folio. Je vais bientôt faire un vidéo de présentation et résumé de ces 3 projets que j'ai complété moi-même car ce sont plus que un tutoriels que j'ai dû comprendre et apprendre pour en arriver là. 😉
+Les programmes devraient être essayé en ordre comme suit:
+v1 - voxel minecraft VR et voxel rig - Le système pour détruire les voxels utilise le physics engine de unity3d et les raycast pour détecter la collision sur le collider du voxel comme dans le tutoriel de craig perko.
+v2 - voxel minecraft VR et voxel rig upgradé mais aucun éclat de destruction. J'étais tanné d'avoir des difficultés avec le système pour détruire les voxels de la version v1, alors j'ai décidé d'éliminer complètement le physics engine des calculation pour détruire le chunk. c'est quand même performant comme technique et cette technique je l'ai développé moi-même sans l'apprendre de quiconque.
+jitter - seulement que le ik voxel rig est setup ici, jitter c'était pas trop facile à faire fonctionner les raycasts dans unity3d mais j'ai réussi à faire fonctionner le ik rig jusqu'à un certain degré.
+steve chassé aka ninekorn
+
+
 
 
 
