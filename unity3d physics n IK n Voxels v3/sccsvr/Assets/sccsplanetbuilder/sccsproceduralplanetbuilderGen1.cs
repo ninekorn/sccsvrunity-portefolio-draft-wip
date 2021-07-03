@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
-using SPINACH.iSCentralDispatch;
+//using SPINACH.iSCentralDispatch;
 using System.Threading.Tasks;
 using SimplexNoise;
 
@@ -1483,28 +1483,7 @@ public class sccsproceduralplanetbuilderGen1 : MonoBehaviour
         }
         return blocks[x, y, z];
     }*/
-
-
-    void MyThread0()
-    {
-        while (cancelFlag == false)
-        {
-            iSCentralDispatch.DispatchMainThread(() =>
-            {
-                if (tileCount < total)
-                {
-                    InvokeRepeating("CreateChunk", 0, speeding);
-                }
-                else
-                {
-                    cancelFlag = true;
-                }
-
-
-            });
-            cancelFlag = true;
-        }
-    }
+    
 
     /*void nextPos()
     {

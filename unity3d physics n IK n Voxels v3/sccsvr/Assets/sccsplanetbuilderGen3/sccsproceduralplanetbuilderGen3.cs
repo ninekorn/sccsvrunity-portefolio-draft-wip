@@ -6,7 +6,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
-using SPINACH.iSCentralDispatch;
+//using SPINACH.iSCentralDispatch;
+using System.Threading.Tasks;
 using System.Threading.Tasks;
 using SimplexNoise;
 
@@ -1471,29 +1472,7 @@ public class sccsproceduralplanetbuilderGen3 : MonoBehaviour
         return blocks[x, y, z];
     }*/
 
-
-    void MyThread0()
-    {
-        while (cancelFlag == false)
-        {
-            iSCentralDispatch.DispatchMainThread(() =>
-            {
-                if (counterCreateEmptyObjects < pooledAmount)
-                {
-                    InvokeRepeating("CreateEmptyObjects", 0, repeatrateCreateGameObject);
-                }
-                else
-                {
-                    cancelFlag = true;
-                }
-
-
-            });
-            cancelFlag = true;
-        }
-        Debug.Log("ended spinach iscentraldispatch thread");
-    }
-
+        
     void nextPos()
     {
         //Instantiate(smallCube, _endPosition, Quaternion.identity);

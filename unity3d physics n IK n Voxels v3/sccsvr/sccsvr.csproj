@@ -274,6 +274,7 @@
     <Compile Include="Assets\browning9mm\sccsRaycastShoot.cs" />
     <Compile Include="Assets\browning9mm\sccsshadowBullet.cs" />
     <Compile Include="Assets\bulletcollision.cs" />
+    <Compile Include="Assets\chunkData.cs" />
     <Compile Include="Assets\CollisionScripts\anotherColliderTest.cs" />
     <Compile Include="Assets\CollisionScripts\colliderTest.cs" />
     <Compile Include="Assets\CollisionScripts\collisionatorManager.cs" />
@@ -314,29 +315,18 @@
     <Compile Include="Assets\CollisionScripts\whatev.cs" />
     <Compile Include="Assets\createObjectArray.cs" />
     <Compile Include="Assets\cubicFrac.cs" />
-    <Compile Include="Assets\discarded\areaChunk.cs" />
-    <Compile Include="Assets\discarded\bigChunk.cs" />
-    <Compile Include="Assets\discarded\chunk.cs" />
-    <Compile Include="Assets\discarded\chunkPosBig.cs" />
-    <Compile Include="Assets\discarded\chunkPosSmall.cs" />
-    <Compile Include="Assets\discarded\PerlinNoise.cs" />
-    <Compile Include="Assets\discarded\smallChunk.cs" />
-    <Compile Include="Assets\discarded2\LevelGenerator9.cs" />
     <Compile Include="Assets\footTarget.cs" />
     <Compile Include="Assets\Fracture2.cs" />
     <Compile Include="Assets\Fracture3backup.cs" />
     <Compile Include="Assets\Fracture4.cs" />
     <Compile Include="Assets\FractureLATEST.cs" />
     <Compile Include="Assets\grabObject.cs" />
-    <Compile Include="Assets\LevelGenerator4\LevelGenerator4.cs" />
-    <Compile Include="Assets\LevelGenerator4\newFloorTiles.cs" />
-    <Compile Include="Assets\LevelGenerator4\sccslevelgen4chunkclass.cs" />
     <Compile Include="Assets\lister.cs" />
     <Compile Include="Assets\listing.cs" />
     <Compile Include="Assets\MeshCombineUtility.cs" />
     <Compile Include="Assets\MousePick.cs" />
     <Compile Include="Assets\NewObjectPoolerScript.cs" />
-    <Compile Include="Assets\newterraingen\newTerrainGen.cs" />
+    <Compile Include="Assets\Noise.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\AchievementType.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\AndroidPlatform.cs" />
     <Compile Include="Assets\OculusPlatform\Scripts\ApplicationOptions.cs" />
@@ -524,6 +514,7 @@
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarSkinnedMeshRenderComponent.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
     <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarTouchController.cs" />
+    <Compile Include="Assets\PerlinNoise.cs" />
     <Compile Include="Assets\planetgravity.cs" />
     <Compile Include="Assets\playerInteractionGen1.cs" />
     <Compile Include="Assets\playerInteractionGen2.cs" />
@@ -534,9 +525,6 @@
     <Compile Include="Assets\sc_bullet.cs" />
     <Compile Include="Assets\sc_maths.cs" />
     <Compile Include="Assets\sc_prep_projectile.cs" />
-    <Compile Include="Assets\sc_terrraingenfail\chunkData.cs" />
-    <Compile Include="Assets\sc_terrraingenfail\chunkSCTerrain.cs" />
-    <Compile Include="Assets\sc_terrraingenfail\SC_Terrain.cs" />
     <Compile Include="Assets\sccsFracture.cs" />
     <Compile Include="Assets\sccsFragmentCollider.cs" />
     <Compile Include="Assets\sccsInstancing\chunkForWorldScript.cs" />
@@ -580,19 +568,10 @@
     <Compile Include="Assets\Sounds\sccsU3DTBulletPool.cs" />
     <Compile Include="Assets\SplitMesh.cs" />
     <Compile Include="Assets\SplitMeshIntoTriangles.cs" />
-    <Compile Include="Assets\terrain22gen\Chunk7.cs" />
-    <Compile Include="Assets\terrain22gen\chunko.cs" />
-    <Compile Include="Assets\terrain22gen\Noise.cs" />
-    <Compile Include="Assets\terrain22gen\Terrain22.cs" />
-    <Compile Include="Assets\terrain22gen\Terrain22Old.cs" />
-    <Compile Include="Assets\threadinfiniteTerrainGen\threadInfinite.cs" />
-    <Compile Include="Assets\universegen\chunk.cs" />
-    <Compile Include="Assets\universegen\universe.cs" />
     <Compile Include="Assets\Wireframe\Examples\Scripts\AutoRotate.cs" />
     <Compile Include="Assets\Wireframe\ImageEffect\WireframeImageEffect.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\LevelGenerator4\NewSurfaceShader.shader" />
     <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
     <None Include="Assets\OVR\Plugins\placeholder.txt" />
     <None Include="Assets\OVR\Resources\Cubemap Blit.shader" />
